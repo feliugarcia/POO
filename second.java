@@ -24,14 +24,20 @@ public class second {
 	    System.out.println("Hello world");
 
 	    /*
-	     * Atribue um valor aa variavel num.
+	     * Atribue um valor aa variavel num e aa variavel n.
 	     */
 	    num = 9;
+	    n = 9;
 
 	    /*
-	     * Imprime o valor da variavel num.
+	     * Atribue um valor aa soma das variaveis num e n.
 	     */
-	    System.out.println("Valor de num: "+num);
+	    sum = num + n;
+	    
+	    /*
+	     * Imprime o valor da variavel soma.
+	     */
+	    System.out.println("Valor de num: "+sum);
 
 	    
 
