@@ -37,10 +37,15 @@ display: block;
 margin-bottom: 30pt;
 margin-left: 0;
 }
-MODELO,TENSAO,FABRICANTE
+MODELO,FABRICANTE
 {
 color: #FF0000;
 font-size: 20pt;
+}
+TENSAO
+{
+color: #0000FF;
+font-size: 15pt;
 }
 COR,CAPACIDADE
 {

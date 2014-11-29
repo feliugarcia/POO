@@ -4,6 +4,8 @@
 
 
 <table style="width:100%">
+<title>Exercicio 3</title>
+<tr> Questao 3.ii</tr>
   <tr>
 <LINGUAGENS>
   <HTML>
@@ -17,16 +19,14 @@
     <COMENTARIO>A linguagem mais usada da Internet</COMENTARIO>
   </HTML>
   <XML>
-    <SIGLA>Lin
-    guagem de marcação extendida</SIGLA>
+    <SIGLA>Linguagem de marcação extendida</SIGLA>
     <USO>Internet</USO>
     <COMENTARIO>A nova linguagem da Internet</COMENTARIO>
   </XML>
   <XML>
-    <SIGLA>Lin
-    guagem de marcação extendida</SIGLA>
+    <SIGLA>XML</SIGLA>
     <USO>Internet</USO>
-    <COMENTARIO>A nova linguagem da Internet</COMENTARIO>
+    <COMENTARIO>Linguagem de marcação extendida</COMENTARIO>
   </XML>
   <JAVA>
     <SIGLA>Simplesmente JAVA</SIGLA>
@@ -36,6 +36,9 @@
 </LINGUAGENS>
 
   </tr>
+
+<tr> Questao 4.</tr>
+
   <tr>
 
     <APARELHOS>
@@ -54,13 +57,12 @@
       </FOGAO>
 
       <MICROONDAS>
-	<MODELO> Elect </MODELO> 
-	<TENSAO>110 </TENSAO> 
-	<FABRICANTE> Elect </FABRICANTE> 
-	<CAPACIDADE> 20 l</CAPACIDADE> 
+	<MODELO>ElectLux</MODELO> 
+	<TENSAO>110</TENSAO> 
+	<FABRICANTE>Elect</FABRICANTE> 
+	<CAPACIDADE> 20 litros</CAPACIDADE> 
 	<COR>Vermelho</COR>
       </MICROONDAS>
-
       
 </APARELHOS> 
   
