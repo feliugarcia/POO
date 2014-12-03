@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class Subtacao {
+public class Subtracao {
 
     int resultado=0;
     
@@ -14,7 +14,7 @@ public class Subtacao {
     }
     
     public Subtracao(int OP1,int OP2) {
-	resultado = OP1 + OP2;
+	resultado = OP1 - OP2;
     }
 
     int getOp1() {

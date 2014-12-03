@@ -1,11 +1,13 @@
+package Objeto;
+
 import java.io.*;
 
 public class Soma {
 
-    int resultado=0;
+    public int resultado=0;
     
     private int op1;
-    int op2;
+    protected int op2;
 
     public Soma() {
 	op1 = 9;

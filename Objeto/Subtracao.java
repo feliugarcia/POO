@@ -1,3 +1,5 @@
+package Objeto;
+
 import java.io.*;
 
 public class Subtracao {

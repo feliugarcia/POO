@@ -1,3 +1,5 @@
+package Objeto;
+
 import java.io.*;
 
 public class Banco {
@@ -16,11 +18,12 @@ public class Banco {
 
 	System.out.println("Resultado Soma = "+ss.getResultado());
 	System.out.println(" Op1 = "+ ss.getOp1());
+	System.out.println(" Op2 = "+ ss.op2);
 
 	Subtracao sb = new Subtracao(-9,18);
 
 	System.out.println("Resultado Subtracao = "+sb.getResultado());
-	System.out.println(" Op1 = "+ sb.getOp1());
+	System.out.println(" Op1 = "+ sb.getOp2());
 
     }
 
