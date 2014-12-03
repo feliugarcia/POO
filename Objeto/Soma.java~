@@ -1,0 +1,13 @@
+import java.io.*;
+
+public class Soma {
+
+    int resultado=0;
+    
+    int op1, op2;
+
+    public Soma() {
+	
+    }
+
+}
