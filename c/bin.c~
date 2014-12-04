@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *args[]) {
+  int rest=0;
+
+  printf("Entre com os dados");
+
+  rest = pow(2,0);
+
+  return 0;
+}
