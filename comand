@@ -1,0 +1,12 @@
+mdadm --create /dev/md0 --level=1 --raid-devices=2 /dev/sdb1 /dev/sdb2
+pvcreate /dev/md0
+mdadm --detail --brief /dev/md0
+mount /dev/md0 /mnt/d1/
+mdadm --assemble --help
+mount /dev/md127 /mnt/d1/
+
+modprobe blowfish
+modprobe cryptoloo
+losetup -e blowfish /dev/loop0 /mnt/d1/file.iso
+losetup -a
+mount /dev/loop0 /mnt/d2/
