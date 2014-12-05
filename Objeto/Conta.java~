@@ -1,0 +1,21 @@
+package Objeto;
+
+import java.io.*;
+
+public class Conta {
+
+    private int id;
+    private String Nome;
+    private String End;
+    
+
+    public Conta() {
+	
+    }
+
+    public CreateAcount() {
+	
+	
+    }
+
+}

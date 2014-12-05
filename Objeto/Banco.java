@@ -4,7 +4,6 @@ import java.io.*;
 
 public class Banco {
 
-
     public static void main(String[] args) {
 	
 	System.out.println("System");
@@ -24,6 +23,12 @@ public class Banco {
 
 	System.out.println("Resultado Subtracao = "+sb.getResultado());
 	System.out.println(" Op1 = "+ sb.getOp2());
+
+	Conta c = new Conta();
+
+	c.CreateAcount("Maria","Rua",1);
+
+	System.out.println("Contas cadastradas "+c.getNome());
 
     }
 
