@@ -1,0 +1,19 @@
+package Objeto;
+
+import java.io.*;
+import java.util.*;
+import java.util.Vector;
+
+public class Valor extends Conta {
+    
+    private int id = 0;
+    private int saldo = 0;
+
+    protected Valor() {
+
+    }
+    
+    protected Deposito(int valor) {
+	this.saldo += valor;
+    }
+}
