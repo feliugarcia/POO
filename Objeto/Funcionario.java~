@@ -1,0 +1,13 @@
+package Objeto;
+
+import java.io.*;
+
+public class Funcionario {
+    
+    vector<Object> v = new Vector<Object>; 
+
+    public Funcionario() {
+	
+    }
+    
+}

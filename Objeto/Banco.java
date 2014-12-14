@@ -1,49 +1,39 @@
 package Objeto;
 
 import java.io.*;
+import java.lang.*;
 
 public class Banco {
     
     public static void main(String[] args) {
 	
-	int i = 0;
-	System.out.println("System");
+	Login log = new Login();
+	String login;
+	String senha;
+	BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-	Agencia ag = new Agencia();
-
-	
-	Soma s = new Soma();
-	
-	System.out.println("Resultado Soma = "+s.getResultado());
-	System.out.println(" Op1 = "+ s.getOp1());
-	
-	Soma ss = new Soma(-9,18);
-	
-	System.out.println("Resultado Soma = "+ss.getResultado());
-	System.out.println(" Op1 = "+ ss.getOp1());
-	System.out.println(" Op2 = "+ ss.op2);
-	
-	Subtracao sb = new Subtracao(-9,18);
-	
-	System.out.println("Resultado Subtracao = "+sb.getResultado());
-	System.out.println(" Op1 = "+ sb.getOp2());
-	
-	Conta c = new Conta();
-	
-	for (i = 0; i <= 9; i++) {
-	    c.CreateAcount("Maria"+i,"Rua",1);
+	try {
+	    System.out.println("Entre com o login");
+	    login = in.readLine();
+	    System.out.println("Entre com e a senha");
+	    senha = in.readLine();
 	    
-	    System.out.println("Contas cadastradas "+c.getNome(i));
+	    System.out.println("Conta do tipo: "+log.getTipo(login,senha));
+
+	    switch(log.getTipo(login,senha)) {
+	    case 'F': {
+		System.out.println("Funcionario");
+		Agencia ag = new Agencia();
+		break;
+	    }
+	    case 'C': { System.out.println("Cliente"); break; }
+	    default: System.out.println("Este usuario nao conta em nosso banco de dados");
+	    }
+
+	} catch(Exception e) {
+	    System.out.println( e );
 	}
-
-	c.Deposito(1,9999.90);
-	System.out.println("Conta de "+c.getNome(1)+ "; Saldo " + 
-			   c.getSaldo(1));
 	
-	c.printAll();
-
-	System.out.println("Account name= "+c.findName("Maria4"));
-
     }
     
 }

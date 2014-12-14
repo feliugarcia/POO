@@ -3,7 +3,7 @@ package Objeto;
 import java.io.*;
 import java.lang.*;
 
-public class Agencia {
+public class Cliente {
     
     private int id=0;
     
@@ -11,7 +11,7 @@ public class Agencia {
     
     private char[] op;
 
-    public Agencia() {
+    public Cliente() {
 		
 	try {
 	    System.out.println("Escolha a opcao");

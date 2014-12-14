@@ -1,0 +1,21 @@
+package Banco;
+
+import java.io.*;
+
+public class FuncionarioData extends Funcionario {
+    
+    String Matricula;
+    String Nome;
+    String End;
+    
+
+    public FuncionarioData(String m,String n,String e) {
+	this.Matricula = m;
+	this.nome = n;
+	this.end = e;
+    }
+
+    
+    
+    
+}

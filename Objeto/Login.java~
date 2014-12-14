@@ -1,0 +1,14 @@
+package Objeto;
+
+import java.io.*;
+
+public class Login {
+
+    String login;
+    String senha;
+    char[1] tipo;
+
+    public Login () {
+	
+    }
+}
